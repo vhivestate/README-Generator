@@ -1,20 +1,60 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {}
+function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {}
+// function if user decides to include a table of contents 
+function renderTable(table) {
+  if(table) {
+    return`## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Lisence](#lisence)
+- [Contributions](#contributions)`
+// Doesn't include 'undefined' in finished readme file
+  } else {
+    return''
+  }
+} 
+// function is a user decides to include contributions
+function renderCon(contributions, info) {
+  console.log(contributions)
+  if(contributions) {
+    return`## Contributions
+  ${info}`
+  } else {
+    return''
+  }
+}
+// Function to generate markdown for README
+function generateMarkdown(data) {
+  return `# ${data.title}
+## Description
+${data.description}
 
-// TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
-//   return `# ${data.title}
+${renderTable(data.table)}
 
-// `;
-// }
+## Installation
+${data.installation}
 
-// module.exports = generateMarkdown;
+## Usage
+${data.usage}
+
+## License
+${data.license}
+
+${renderCon(data.contributions, data.contributionInput)}
+
+## Test
+${data.test}
+
+## Email
+${data.email}
+
+## Username
+${data.username}
+
+
+
+`;
+}
+
+module.exports = generateMarkdown;
