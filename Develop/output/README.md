@@ -1,6 +1,6 @@
-# README-Generator
+# v [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=for-the-badge)](https://opensource.org/licenses/MIT)
 ## Description
-Create readme file
+v
 
 ## Table of Contents
 - [Installation](#installation)
@@ -9,25 +9,24 @@ Create readme file
 - [Contributions](#contributions)
 
 ## Installation
-npm install
+d
 
 ## Usage
-must use node
+d
 
 ## License
-None
+MIT
 
-## Contributions
-  Chris
+
 
 ## Test
-A lot of console.logs
+n
 
 ## Email
-garcia.valeria001@gmail.com
+n
 
 ## Username
-vhivestate
+n
 
 
 
