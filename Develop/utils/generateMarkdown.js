@@ -24,6 +24,26 @@ function renderCon(contributions, info) {
     return''
   }
 }
+
+// * Function returns license badge 
+const renderLicenseBadge = (license) => {
+  if (license === "None") {
+    return `[![License](https://img.shields.io/static/v1?label=License&message=Unlicense&color=critical&style=for-the-badge)](https://opensource.org/licenses/unlicense)`;
+  }
+  if (license === "MIT") {
+    return `[![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=for-the-badge)](https://opensource.org/licenses/MIT)`;
+  }
+  if (license === "Apache") {
+    return `[![License](https://img.shields.io/static/v1?label=License&message=Apache&color=blue&style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)`;
+  }
+  if (license === "GPL") {
+    return `[![License](https://img.shields.io/static/v1?label=License&message=GPL&color=yellow&style=for-the-badge)](https://opensource.org/licenses/GPL-3.0)`;
+  }
+  if (license === "BSD-3-Clause") {
+    return `[![License](https://img.shields.io/static/v1?label=License&message=BSD&color=yellowgreen&style=for-the-badge)](https://opensource.org/licenses/BSD-3-Clause)`;
+  }
+};
+
 // Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}

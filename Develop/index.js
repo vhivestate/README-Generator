@@ -69,7 +69,7 @@ const questions = () => {
             type: 'list',
             name: 'license',
             message: 'Please select a license',
-            choices: ['MIT', 'Apache', 'GPL', 'BSD-3-Clause', 'Mozilla', 'None'],
+            choices: ['MIT', 'Apache', 'GPL', 'BSD-3-Clause', 'None'],
             default: 'None'
         },
         {
