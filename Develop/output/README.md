@@ -1,6 +1,6 @@
-# v [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=for-the-badge)](https://opensource.org/licenses/MIT)
+# README-Generator [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=for-the-badge)](https://opensource.org/licenses/MIT)
 ## Description
-v
+This project auto generates a professional readme file with the info provided once filled out
 
 ## Table of Contents
 - [Installation](#installation)
@@ -9,24 +9,25 @@ v
 - [Contributions](#contributions)
 
 ## Installation
-d
+Download repo, type "npm install" in terminal, also type "install inquirer"
 
 ## Usage
-d
+Terminal has to be open, navigate to Develop, use node index command to initiate questions
 
 ## License
 MIT
 
-
+## Contributions
+  If you have any questions feel free to contact me [via email](mailto:garcia.valeria001@gmail.com). or [on GitHub](https://github.com/vhivestate).
 
 ## Test
-n
+I used node index in terminal throughout project to ensure code worked
 
 ## Email
-n
+garcia.valeria001@gmail.com
 
 ## Username
-n
+vhivestate
 
 
 
