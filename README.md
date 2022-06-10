@@ -9,7 +9,7 @@ This project auto generates a professional readme file with the info provided on
 - [Contributions](#contributions)
 
 ## Installation
-Download repo, type "npm install" in terminal, also type "install inquirer"
+Download repo [on Github](https://github.com/vhivestate/README-Generator), type "npm install" in terminal, also type "install inquirer"
 
 ## Usage
 Terminal has to be open, navigate to Develop, use node index command to initiate questions
@@ -22,6 +22,9 @@ MIT
 
 ## Test
 I used node index in terminal throughout project to ensure code worked
+
+## Video
+Video walkthrough [link](https://drive.google.com/file/d/1MhpegRdSS_nDNrgVth2GfjLFnp2aOnm_/view?usp=sharing)
 
 ## Email
 garcia.valeria001@gmail.com
