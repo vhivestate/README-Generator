@@ -1,4 +1,4 @@
-# README-Generator [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=for-the-badge)](https://opensource.org/licenses/MIT)
+# create-pro-README [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blueviolet&style=for-the-badge)](https://opensource.org/licenses/MIT)
 ## Description
 This project auto generates a professional readme file with the info provided once filled out
 
@@ -9,7 +9,7 @@ This project auto generates a professional readme file with the info provided on
 - [Contributions](#contributions)
 
 ## Installation
-Download repo [on Github](https://github.com/vhivestate/README-Generator), type "npm install" in terminal, also type "install inquirer"
+Download repo [on my Github](https://github.com/vhivestate/create-pro-README), type "npm install" in terminal, also type "install inquirer"
 
 ## Usage
 Terminal has to be open, navigate to Develop, use node index command to initiate questions
